@@ -24,6 +24,8 @@
     <string>public.app-category.music</string>
     <key>LSUIElement</key>
     <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
     <key>NSAppleEventsUsageDescription</key>
     <string>SongLumen needs access to Music to show the song currently playing.</string>
 </dict>
