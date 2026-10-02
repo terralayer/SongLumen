@@ -11,6 +11,10 @@
     A10000000000000000000004 /* NowPlayingStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* NowPlayingStateTests.swift */; };
     A10000000000000000000005 /* NowPlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* NowPlayingState.swift */; };
     A10000000000000000000006 /* MusicMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* MusicMonitor.swift */; };
+    A10000000000000000000007 /* ArtworkLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* ArtworkLoaderTests.swift */; };
+    A10000000000000000000008 /* ArtworkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* ArtworkLoader.swift */; };
+    A10000000000000000000009 /* NowPlayingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* NowPlayingPanel.swift */; };
+    A10000000000000000000010 /* LoginItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* LoginItemController.swift */; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
     A10000000000000000000011 /* SongLumenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SongLumenApp.swift; sourceTree = "<group>"; };
@@ -21,6 +25,10 @@
     A10000000000000000000016 /* NowPlayingStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingStateTests.swift; sourceTree = "<group>"; };
     A10000000000000000000017 /* NowPlayingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/NowPlayingState.swift; sourceTree = "<group>"; };
     A10000000000000000000018 /* MusicMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music/MusicMonitor.swift; sourceTree = "<group>"; };
+    A10000000000000000000019 /* ArtworkLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkLoaderTests.swift; sourceTree = "<group>"; };
+    A10000000000000000000020 /* ArtworkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music/ArtworkLoader.swift; sourceTree = "<group>"; };
+    A10000000000000000000023 /* NowPlayingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/NowPlayingPanel.swift; sourceTree = "<group>"; };
+    A10000000000000000000024 /* LoginItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/LoginItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 /* Begin PBXFrameworksBuildPhase section */
     A10000000000000000000021 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
@@ -28,8 +36,8 @@
 /* End PBXFrameworksBuildPhase section */
 /* Begin PBXGroup section */
     A10000000000000000000031 = {isa = PBXGroup; children = (A10000000000000000000032 /* SongLumen */, A10000000000000000000033 /* SongLumenTests */, A10000000000000000000034 /* Products */); sourceTree = "<group>"; };
-    A10000000000000000000032 /* SongLumen */ = {isa = PBXGroup; children = (A10000000000000000000011 /* SongLumenApp.swift */, A10000000000000000000012 /* TrackSnapshot.swift */, A10000000000000000000017 /* NowPlayingState.swift */, A10000000000000000000018 /* MusicMonitor.swift */); name = SongLumen; path = SongLumen; sourceTree = "<group>"; };
-    A10000000000000000000033 /* SongLumenTests */ = {isa = PBXGroup; children = (A10000000000000000000013 /* TrackSnapshotTests.swift */, A10000000000000000000016 /* NowPlayingStateTests.swift */); name = SongLumenTests; path = SongLumenTests; sourceTree = "<group>"; };
+    A10000000000000000000032 /* SongLumen */ = {isa = PBXGroup; children = (A10000000000000000000011 /* SongLumenApp.swift */, A10000000000000000000012 /* TrackSnapshot.swift */, A10000000000000000000017 /* NowPlayingState.swift */, A10000000000000000000018 /* MusicMonitor.swift */, A10000000000000000000020 /* ArtworkLoader.swift */, A10000000000000000000023 /* NowPlayingPanel.swift */, A10000000000000000000024 /* LoginItemController.swift */); name = SongLumen; path = SongLumen; sourceTree = "<group>"; };
+    A10000000000000000000033 /* SongLumenTests */ = {isa = PBXGroup; children = (A10000000000000000000013 /* TrackSnapshotTests.swift */, A10000000000000000000016 /* NowPlayingStateTests.swift */, A10000000000000000000019 /* ArtworkLoaderTests.swift */); name = SongLumenTests; path = SongLumenTests; sourceTree = "<group>"; };
     A10000000000000000000034 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000014 /* SongLumen.app */, A10000000000000000000015 /* SongLumenTests.xctest */); name = Products; sourceTree = "<group>"; };
 /* End PBXGroup section */
 /* Begin PBXNativeTarget section */
@@ -40,8 +48,8 @@
     A10000000000000000000081 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 2600; TargetAttributes = { A10000000000000000000041 = {CreatedOnToolsVersion = 26.0;}; A10000000000000000000042 = {CreatedOnToolsVersion = 26.0; TestTargetID = A10000000000000000000041;}; }; }; buildConfigurationList = A10000000000000000000063 /* Build configuration list for PBXProject "SongLumen" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A10000000000000000000031; productRefGroup = A10000000000000000000034 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000041 /* SongLumen */, A10000000000000000000042 /* SongLumenTests */); };
 /* End PBXProject section */
 /* Begin PBXSourcesBuildPhase section */
-    A10000000000000000000071 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* SongLumenApp.swift in Sources */, A10000000000000000000002 /* TrackSnapshot.swift in Sources */, A10000000000000000000005 /* NowPlayingState.swift in Sources */, A10000000000000000000006 /* MusicMonitor.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
-    A10000000000000000000073 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000003 /* TrackSnapshotTests.swift in Sources */, A10000000000000000000004 /* NowPlayingStateTests.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+    A10000000000000000000071 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* SongLumenApp.swift in Sources */, A10000000000000000000002 /* TrackSnapshot.swift in Sources */, A10000000000000000000005 /* NowPlayingState.swift in Sources */, A10000000000000000000006 /* MusicMonitor.swift in Sources */, A10000000000000000000008 /* ArtworkLoader.swift in Sources */, A10000000000000000000009 /* NowPlayingPanel.swift in Sources */, A10000000000000000000010 /* LoginItemController.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+    A10000000000000000000073 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000003 /* TrackSnapshotTests.swift in Sources */, A10000000000000000000004 /* NowPlayingStateTests.swift in Sources */, A10000000000000000000007 /* ArtworkLoaderTests.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXSourcesBuildPhase section */
 /* Begin PBXResourcesBuildPhase section */
     A10000000000000000000072 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
