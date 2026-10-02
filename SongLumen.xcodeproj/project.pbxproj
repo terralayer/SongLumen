@@ -1,0 +1,64 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+/* Begin PBXBuildFile section */
+    A10000000000000000000001 /* SongLumenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* SongLumenApp.swift */; };
+    A10000000000000000000002 /* TrackSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* TrackSnapshot.swift */; };
+    A10000000000000000000003 /* TrackSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* TrackSnapshotTests.swift */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+    A10000000000000000000011 /* SongLumenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SongLumenApp.swift; sourceTree = "<group>"; };
+    A10000000000000000000012 /* TrackSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/TrackSnapshot.swift; sourceTree = "<group>"; };
+    A10000000000000000000013 /* TrackSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackSnapshotTests.swift; sourceTree = "<group>"; };
+    A10000000000000000000014 /* SongLumen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SongLumen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    A10000000000000000000015 /* SongLumenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SongLumenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+    A10000000000000000000021 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+    A10000000000000000000022 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+    A10000000000000000000031 = {isa = PBXGroup; children = (A10000000000000000000032 /* SongLumen */, A10000000000000000000033 /* SongLumenTests */, A10000000000000000000034 /* Products */); sourceTree = "<group>"; };
+    A10000000000000000000032 /* SongLumen */ = {isa = PBXGroup; children = (A10000000000000000000011 /* SongLumenApp.swift */, A10000000000000000000012 /* TrackSnapshot.swift */); name = SongLumen; path = SongLumen; sourceTree = "<group>"; };
+    A10000000000000000000033 /* SongLumenTests */ = {isa = PBXGroup; children = (A10000000000000000000013 /* TrackSnapshotTests.swift */); name = SongLumenTests; path = SongLumenTests; sourceTree = "<group>"; };
+    A10000000000000000000034 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000014 /* SongLumen.app */, A10000000000000000000015 /* SongLumenTests.xctest */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+    A10000000000000000000041 /* SongLumen */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000061 /* Build configuration list for PBXNativeTarget "SongLumen" */; buildPhases = (A10000000000000000000071 /* Sources */, A10000000000000000000021 /* Frameworks */, A10000000000000000000072 /* Resources */); buildRules = (); dependencies = (); name = SongLumen; productName = SongLumen; productReference = A10000000000000000000014 /* SongLumen.app */; productType = "com.apple.product-type.application"; };
+    A10000000000000000000042 /* SongLumenTests */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000062 /* Build configuration list for PBXNativeTarget "SongLumenTests" */; buildPhases = (A10000000000000000000073 /* Sources */, A10000000000000000000022 /* Frameworks */); buildRules = (); dependencies = (A10000000000000000000051 /* PBXTargetDependency */); name = SongLumenTests; productName = SongLumenTests; productReference = A10000000000000000000015 /* SongLumenTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+    A10000000000000000000081 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 2600; TargetAttributes = { A10000000000000000000041 = {CreatedOnToolsVersion = 26.0;}; A10000000000000000000042 = {CreatedOnToolsVersion = 26.0; TestTargetID = A10000000000000000000041;}; }; }; buildConfigurationList = A10000000000000000000063 /* Build configuration list for PBXProject "SongLumen" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A10000000000000000000031; productRefGroup = A10000000000000000000034 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000041 /* SongLumen */, A10000000000000000000042 /* SongLumenTests */); };
+/* End PBXProject section */
+/* Begin PBXSourcesBuildPhase section */
+    A10000000000000000000071 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* SongLumenApp.swift in Sources */, A10000000000000000000002 /* TrackSnapshot.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+    A10000000000000000000073 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000003 /* TrackSnapshotTests.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+    A10000000000000000000072 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXTargetDependency section */
+    A10000000000000000000051 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A10000000000000000000041 /* SongLumen */; targetProxy = A10000000000000000000052 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+/* Begin PBXContainerItemProxy section */
+    A10000000000000000000052 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = A10000000000000000000081 /* Project object */; proxyType = 1; remoteGlobalIDString = A10000000000000000000041; remoteInfo = SongLumen; };
+/* End PBXContainerItemProxy section */
+/* Begin XCBuildConfiguration section */
+    A10000000000000000000091 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_NAME = "$(TARGET_NAME)"; }; name = Debug; };
+    A10000000000000000000092 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_NAME = "$(TARGET_NAME)"; }; name = Release; };
+    A10000000000000000000093 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = SongLumen.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ZJQGNJ742R; ENABLE_APP_SANDBOX = YES; ENABLE_TESTABILITY = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSUIElement = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.terrahomelab.songlumen; PRODUCT_NAME = SongLumen; SWIFT_VERSION = 5.0; }; name = Debug; };
+    A10000000000000000000094 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = SongLumen.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ZJQGNJ742R; ENABLE_APP_SANDBOX = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSUIElement = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.terrahomelab.songlumen; PRODUCT_NAME = SongLumen; SWIFT_VERSION = 5.0; }; name = Release; };
+    A10000000000000000000095 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.terrahomelab.songlumen.tests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongLumen.app/Contents/MacOS/SongLumen"; }; name = Debug; };
+    A10000000000000000000096 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.terrahomelab.songlumen.tests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongLumen.app/Contents/MacOS/SongLumen"; }; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+    A10000000000000000000061 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000093, A10000000000000000000094); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+    A10000000000000000000062 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000095, A10000000000000000000096); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+    A10000000000000000000063 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000091, A10000000000000000000092); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+/* End XCConfigurationList section */
+ };
+ rootObject = A10000000000000000000081 /* Project object */;
+}
